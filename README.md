@@ -1,31 +1,26 @@
-# Assignment 2 – Interactive Features  
-This is my interactive personal portfolio website for SWE 363 Assignment 2.  
-It adds new dynamic and interactive elements to improve user experience.
+# Technical Documentation – Assignment 3
 
-## 🧩 Features
-- Dynamic greeting based on time of day  
-- Light/Dark Mode (toggle with localStorage save)  
-- Live Project Search (filter cards instantly)  
-- Contact form with validation and feedback  
-- Smooth CSS animations and hover effects  
+## 📘 Overview
+A feature-rich interactive portfolio web application built with **HTML**, **CSS**, and **JavaScript**.  
+This version adds advanced functionality through **API integration**, **state management**, and improved interactivity.
 
-## 🛠️ How to Run
-1. Download or clone the repository  
-2. Open `index.html` in your browser (works offline)  
+## ⚡ Core Features
+- Fetches GitHub repositories dynamically using the GitHub API  
+- Displays error messages if API data fails to load  
+- Dynamic greeting and dark/light mode with saved preferences  
+- Live project search with instant filtering  
+- Contact form validation and feedback messages  
+- CSS transitions for smooth animations  
 
-## 📁 Structure
-assignment-2/
-├── README.md
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-├── assets/
-│   └── images/
-├── docs/
-│   ├── ai-usage-report.md
-│   └── technical-documentation.md
+## 🧠 Technology Stack
+- HTML5 for structure  
+- CSS3 for styling and animations  
+- Vanilla JavaScript (ES6) for logic and API interaction  
 
-## 🤖 AI Assistance Summary
-I used ChatGPT to generate
+## 📂 Folder Structure
+(See `README.md` for the complete layout)
+
+## ▶️ How to Run
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/NeefCS/assignment-3.git
