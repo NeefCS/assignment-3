@@ -177,3 +177,71 @@
     }
   }
   
+
+  #github-projects {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.repo-card {
+  background: var(--card-bg, #fff);
+  color: var(--text-color, #000);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.repo-card:hover {
+  transform: scale(1.05);
+}
+
+.repo-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+#github-projects {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.repo-card {
+  background: var(--card-bg, #fff);
+  color: var(--text-color, #000);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 250px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.repo-card:hover {
+  transform: scale(1.05);
+}
+
+.repo-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
